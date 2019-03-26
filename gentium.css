@@ -1,0 +1,404 @@
+.header{
+    background: black;
+    color: white;
+    padding-top: 40px;
+    font-family: "AvantGarde Bold", Sans-serif;
+    font-weight: bold;
+}
+.header .left h1{
+    font-weight: bold;
+}
+.right{
+    padding-top: 20px;
+}
+.right ul li{
+    display: inline;
+    padding: 13px; 
+}
+.right ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+#about{
+    background: url( http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+#about .digital-h1 h1{
+    font-size: 78px;
+    font-weight: 800;
+    color: white;
+    width: 50%;
+    padding-top: 120px;
+    padding-left: 30px;
+}
+#about .a-href{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.a-href a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    border-color: #e9204f;
+    border-style: solid;
+    padding: 20px 60px;
+}
+.a-href:hover a{
+    background: #e9204f;
+    color: white;
+    transition: .5s;
+}
+.product{
+    margin-top: 120px;
+    background: #e9204f;
+    padding: 60px 40px;
+    color: white;   
+}
+.product h2{
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.product .hr hr{
+    background: white;
+    margin:0 0 20px 0;
+    width: 60px; 
+    height: 2px;
+}
+.product2 .hr hr{
+    background: #e9204f;
+    margin:0 0 20px 0;
+    width: 60px; 
+    height: 2px;
+}
+.product p{
+    padding-top: 20px;
+}
+.product i{
+    font-size: 40px;
+}
+
+.product2{
+    margin-top:120px;
+    background:#2c2c2c;
+    padding: 60px 40px;
+    color: white;   
+}
+.product2 h2{
+    font-weight: bold;
+    font-size: 35px;
+    padding-top: 20px;
+}
+.product2 p{
+    padding-top: 20px;
+}
+.product2 i{
+    font-size: 40px;
+    color: #e9204f;
+}
+.product2:hover{
+    background: #e9204f;
+    transition: .5s;  
+}
+.product2:hover i{
+    color: white;
+}
+.hr2 hr{
+    background: #e9204f;
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 40px; 
+    height: 2px;
+}
+
+.services-h1{
+    margin-left: 20px;
+    margin-bottom:70px; 
+    font-size: 48px;
+    font-weight: 700;
+}
+.services-h1 p{
+    color: #e9204f;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.services-box{
+    background: #f3f3f3;
+    height: 120px;
+    margin-top: 25px;
+}
+.services-box h3{
+    font-family: "Trade Gothic", sans-serif;    
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.services-box i{
+    font-size: 30;
+    margin-left: 40px;
+    padding-top: 40px;
+}
+ .services-box:hover{
+    background: #e9204f;
+    transition: .5s;
+}
+.icon i{
+    position: relative;
+}
+.services-box:hover i{
+    animation: anima .5s linear infinite;
+    color: white;
+}
+.services-box:hover h3{
+    animation: anima .5s linear ease;
+    color: white;
+}
+@keyframes anima {
+    0%{
+        left: 0px; 
+    }
+    100%{
+        left: 20px;
+    }
+}
+.works-h1{
+    padding-left: 20px;
+}
+.works-h1 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.works-h1 p{
+    color: #e9204f;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;   
+}
+.button{
+    margin-top:200px;
+    margin-left:650px;
+}
+.button a{
+    color:black;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border-color: #e9204f;
+    border-style: solid;
+    padding: 15px 32px;
+}
+.button:hover a{
+    background: #e9204f;
+    color: white;
+    transition: .5s;     
+}
+.work-boxs{
+    margin-top: 20px;
+    position: relative;   
+}
+.work-box:hover{
+    opacity:0.9;
+    animation: leave 1s infinite;
+}
+@keyframes leave {
+    0%{
+    transform: scale(1)
+    }
+    100%{
+    transform: scale(0.9555)
+    }
+} 
+.work-text {
+   position: absolute; 
+   color: white;
+   display: none;
+   padding-left: 100px;
+   padding-top: 100px;
+}
+.work-box:hover .work-text{
+    display: block;
+}
+.about-h1{
+    padding-left: 20px;
+}
+.about-h1 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.about-h1 p{
+    color: #e9204f;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+.loremIpsum p{
+    color: #747474;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.text .text-box{
+    margin-top: 50px;
+}
+.text-box h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.text-box p{
+    color: #747474;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.image2{
+    padding-left:20px;
+}
+.agency-box hr{
+    margin-left: 50px;
+}
+.text-boxs{
+    margin-left: 50px;
+}
+.text-boxs h1{
+    font-size: 48px;
+    font-weight: 900;
+
+}
+.text-boxs h5{
+    color: #e9204f;
+    font-size: 17px;
+    font-weight: 700;
+}
+.text-boxs p{
+    color: #747474;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.text-boxs h6{
+    margin-top: 100px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.hr3{
+    margin-top: 150px;
+}
+.logo-box{
+    padding-top: 50px;  
+}
+.h{
+    text-align: center;
+    padding-top: 200px;
+}
+.h h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.h h6{
+    color: #e9204f;
+    font-family: "Trade Gothic", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.news-box{
+    position: relative;
+    margin-top: 100px;  
+}
+.news .news-text{
+    position: absolute;
+    color: antiquewhite
+}
+.news-text{
+    padding-top: 120px;
+}
+.news-text h4,p{
+    text-align: center;
+    color: white;
+}
+.news-box:hover{
+    opacity: .7;
+    animation: ani .7s infinite;
+}
+.news-text:hover {
+    opacity:.7;
+    animation: animati .7s infinite;
+}
+@keyframes ani{
+    0%{
+        transform: scale(1)
+    }
+    100%{
+        transform: scale(1.05)
+    }
+}
+@keyframes animati {
+    0%{
+    bottom: 0px;
+    }
+    100%{
+    bottom: 10px;
+    }
+}
+.contact{
+    margin-top: 200px;
+    background: #1b1b1b;
+    width: 100%;
+    height: 250px;
+}
+.icons {
+    color: white;
+    font-size: 30px;
+    padding: 100px 40px;
+}
+.icons i{
+    padding-left: 10px;
+}
+.icons:hover i{
+    color: #e9204f
+}
+.contact-text{
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+.contact-text h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.buttons{
+    text-align: center;
+    margin-top: 120px;
+}
+.buttons a{
+    color:white;
+    font-family: "Poppins", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    border-color: #e9204f;
+    border-style: solid;
+    padding: 15px 32px;
+}
+.buttons:hover a{
+    background: #e9204f;
+}
+.number{
+    background: #161616;
+    width: 100%;
+    height: 150px;
+}
+.number-box{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.number-box:hover{
+    color: #e9204f;
+}
