@@ -24,8 +24,15 @@
 #about{
     background: url( http://gentium.pixerex.com/wp/wp-content/uploads/2019/01/hero_02.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-size: 640px auto;
+    background-position: 70% 48%;
+    background-color:#000;
+}
+.line{
+    width: 2px;
+    height: 40px;
+    background: #e9204f;
+    margin: 0px auto;
 }
 #about .digital-h1 h1{
     font-size: 78px;
@@ -110,7 +117,7 @@
 }
 .hr2 hr{
     background: #e9204f;
-    margin-left: 20px;
+    margin-left: 0;
     margin-top: 150px;
     width: 40px; 
     height: 2px;
@@ -202,7 +209,7 @@
     margin-top: 20px;
     position: relative;   
 }
-.work-box:hover{
+.work-box:hover {
     opacity:0.9;
     animation: leave 1s infinite;
 }
@@ -224,9 +231,7 @@
 .work-box:hover .work-text{
     display: block;
 }
-.about-h1{
-    padding-left: 20px;
-}
+
 .about-h1 h1{
     font-size: 48px;
     font-weight: 700;
@@ -243,6 +248,33 @@
     font-size: 17px;
     font-weight: 500;
 }
+ .m-img{
+    position: relative;
+
+}
+.m-img1{
+    position: relative;
+    margin-bottom: 40px;
+}
+.mainImage{
+    position: relative;
+}
+.team-img{
+
+    filter: brightness( 100% ) contrast( 100% ) saturate( 0% ) blur( 0px ) hue-rotate( 0deg );
+}
+
+.team-box:hover .team-img{
+    opacity: 1;
+    filter: brightness( 100% ) contrast( 100% ) saturate( 100% ) blur( 0px ) hue-rotate( 0deg );
+
+}
+.mainImage-text2{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
 .text .text-box{
     margin-top: 50px;
 }
@@ -258,6 +290,9 @@
 }
 .image2{
     padding-left:20px;
+}
+.agency{
+    margin-top:150px;
 }
 .agency-box hr{
     margin-left: 50px;
@@ -313,12 +348,12 @@
 }
 .news .news-text{
     position: absolute;
+    bottom: 10px;
+    left: 15px;
     color: antiquewhite
 }
-.news-text{
-    padding-top: 120px;
-}
-.news-text h4,p{
+
+.news-text h4,.news-text p{
     text-align: center;
     color: white;
 }
@@ -328,7 +363,8 @@
 }
 .news-text:hover {
     opacity:.7;
-    animation: animati .7s infinite;
+    
+    animation: animati .3s infinite;
 }
 @keyframes ani{
     0%{
@@ -340,10 +376,10 @@
 }
 @keyframes animati {
     0%{
-    bottom: 0px;
+    bottom: 10px;
     }
     100%{
-    bottom: 10px;
+    bottom: 30px;
     }
 }
 .contact{
@@ -360,7 +396,7 @@
 .icons i{
     padding-left: 10px;
 }
-.icons:hover i{
+.icons i:hover{
     color: #e9204f
 }
 .contact-text{
